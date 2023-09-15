@@ -9,7 +9,7 @@
 <body>
     <form action="">
         <div>
-            <label for="Nome">Nome:</label> <br>
+            <label for="Nome">Nome:</label>
             <input type="text" id="Nome" placeholder="digite seu nome" required> 
         </div>
         <!-- input radio -->
@@ -28,6 +28,16 @@
                 <input type="radio" id="gremio" name="time">
                 <label for="gremio">gremio</label>
           </div>
+        </div>
+        <!-- select -->
+        <div><br>
+             <label for="turma">escolha sua turma: </label>
+             <select name="turma" id="turma">
+                    <option disabled selected>selecione...</option>
+                    <option value="01tc">01TC</option>
+                    <option value="01ta">01ta</option>
+                    <option value="01tb">01tb</option>
+             </select>
         </div>
 
         <button>Enviar</button>
