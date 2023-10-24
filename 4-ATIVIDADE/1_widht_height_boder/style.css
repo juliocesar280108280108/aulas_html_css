@@ -1,0 +1,14 @@
+.caixa_widht{
+    border:2px solid cadetblue;
+
+    width: 40px;
+
+
+}
+
+.caixa_height{
+    border: 4px dashed #0f0;
+    height: 20px;
+    width: 40px;
+}
+
